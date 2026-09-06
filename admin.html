@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Admin Dashboard</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+
+    </header>
+
+    <div class="admin-container">
+
+        <h2>Add New Event</h2>
+
+        <form id="eventForm">
+
+            <input type="text" id="eventName" placeholder="Event Name" required>
+
+            <input type="text" id="eventDescription" placeholder="Event Description" required>
+
+            <input type="date" id="eventDate" required>
+
+            <input type="text" id="eventVenue" placeholder="Venue" required>
+
+            <input type="number" id="eventSeats" placeholder="Number of Seats" required>
+
+            <button type="submit">
+                Add Event
+            </button>
+
+        </form>
+
+        <p id="eventMessage"></p>
+
+        <hr>
+
+        <h2>Registered Students</h2>
+
+        <div id="registrations">
+            Loading registrations...
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

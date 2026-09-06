@@ -1,0 +1,17 @@
+{
+    "name": "cloud-event-registration",
+    "version": "1.0.0",
+    "description": "Cloud Based Event Registration System",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "cors": "^2.8.6",
+        "dotenv": "^16.4.5",
+        "express": "^4.22.2",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^8.7.1"
+    }
+}
